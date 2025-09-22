@@ -2,37 +2,27 @@
   {
     "id": "foundation-001",
     "brand": "L'Oréal Paris",
-    "name": "Infallible 24H Fresh Wear Foundation",
+    "name": "Infallible 24H Foundation",
     "category": "foundation",
     "description": "Uzun süre kalıcı, hafif fondöten",
     "thumbnail_url": "https://example.com/foundation-thumb.jpg",
     "image_url": "https://example.com/foundation-main.jpg",
     "shades": [
       {
-        "id": "shade-001",
+        "id": "foundation-shade-001",
         "shade_name": "Natural Beige",
         "hex": "#E6C9A8",
         "texture_type": "liquid",
         "finish": "natural",
-        "alpha": 0.3,
+        "alpha": 0.02,
         "intensity": 0.8,
-        "preview_color_url": "https://example.com/beige-swatch.png"
-      },
-      {
-        "id": "shade-002",
-        "shade_name": "Warm Sand",
-        "hex": "#D4B896",
-        "texture_type": "liquid", 
-        "finish": "natural",
-        "alpha": 0.3,
-        "intensity": 0.7,
-        "preview_color_url": "https://example.com/sand-swatch.png"
+        "preview_color_url": ""
       }
     ],
     "arParams": {
       "mask_area": "face",
       "blend_mode": "overlay",
-      "metal_shader": "FoundationShader",
+      "metal_shader": "foundationShader",
       "light_response": true,
       "specular_level": 0.2,
       "glitter": null
@@ -40,48 +30,6 @@
     "tags": ["long-lasting", "waterproof"],
     "release_date": "2023-09-01",
     "brand_line": "Infallible"
-  },
-  {
-    "id": "eyeshadow-001",
-    "brand": "Urban Decay",
-    "name": "Naked Eyeshadow Palette",
-    "category": "eyeshadow",
-    "description": "12'li göz farı paleti",
-    "thumbnail_url": "https://example.com/eyeshadow-thumb.jpg",
-    "image_url": "https://example.com/eyeshadow-main.jpg",
-    "shades": [
-      {
-        "id": "shade-003",
-        "shade_name": "Golden Glow",
-        "hex": "#FFD700",
-        "texture_type": "shimmer",
-        "finish": "metallic",
-        "alpha": 0.5,
-        "intensity": 0.9,
-        "preview_color_url": "https://example.com/gold-swatch.png"
-      },
-      {
-        "id": "shade-004",
-        "shade_name": "Bronze Shimmer", 
-        "hex": "#CD7F32",
-        "texture_type": "shimmer",
-        "finish": "metallic",
-        "alpha": 0.6,
-        "intensity": 0.8,
-        "preview_color_url": "https://example.com/bronze-swatch.png"
-      }
-    ],
-    "arParams": {
-      "mask_area": "eyelids",
-      "blend_mode": "overlay",
-      "metal_shader": "EyeshadowShader",
-      "light_response": true,
-      "specular_level": 0.8,
-      "glitter": 0.3
-    },
-    "tags": ["shimmer", "metallic"],
-    "release_date": "2023-10-15", 
-    "brand_line": "Naked"
   },
   {
     "id": "lipstick-001",
@@ -93,20 +41,20 @@
     "image_url": "https://example.com/lipstick-main.jpg",
     "shades": [
       {
-        "id": "shade-005",
+        "id": "lipstick-shade-001",
         "shade_name": "Ruby Red",
         "hex": "#D2001C",
         "texture_type": "matte",
         "finish": "matte",
         "alpha": 0.8,
         "intensity": 1.0,
-        "preview_color_url": "https://example.com/ruby-swatch.png"
+        "preview_color_url": ""
       }
     ],
     "arParams": {
       "mask_area": "lips",
       "blend_mode": "multiply",
-      "metal_shader": "LipstickShader",
+      "metal_shader": "lipstickShader",
       "light_response": false,
       "specular_level": 0.0,
       "glitter": null
@@ -114,5 +62,37 @@
     "tags": ["matte", "classic"],
     "release_date": "2023-08-01",
     "brand_line": "Amplified"
+  },
+  {
+    "id": "eyeshadow-001",
+    "brand": "Urban Decay",
+    "name": "Naked Eyeshadow Palette",
+    "category": "eyeshadow",
+    "description": "12'li göz farı paleti",
+    "thumbnail_url": "https://example.com/eyeshadow-thumb.jpg",
+    "image_url": "https://example.com/eyeshadow-main.jpg",
+    "shades": [
+      {
+        "id": "eyeshadow-shade-001",
+        "shade_name": "Golden Glow",
+        "hex": "#FFD700",
+        "texture_type": "shimmer",
+        "finish": "metallic",
+        "alpha": 0.6,
+        "intensity": 0.9,
+        "preview_color_url": ""
+      }
+    ],
+    "arParams": {
+      "mask_area": "eyelids",
+      "blend_mode": "overlay",
+      "metal_shader": "eyeshadowShader",
+      "light_response": true,
+      "specular_level": 0.8,
+      "glitter": 0.3
+    },
+    "tags": ["shimmer", "metallic"],
+    "release_date": "2023-10-15",
+    "brand_line": "Naked"
   }
 ]
