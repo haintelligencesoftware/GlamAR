@@ -1,63 +1,66 @@
-[{
-  "id": "benzersiz-id",
-  "brand": "L'Oréal Paris",
-  "name": "Infallible 24H Fresh Wear Foundation",
-  "category": "foundation",
-  "description": "Uzun süre kalıcı, hafif fondöten",
-  "thumbnail_url": "https://.../thumb.jpg",
-  "image_url": "https://.../main.jpg",
-
-  "shades": [
-    {
-      "id": "shade-001",
-      "shade_name": "Natural Beige",
-      "hex": "#E6C9A8",
-      "texture_type": "liquid",
-      "finish": "natural",
-      "alpha": 0.6,
-      "intensity": 0.8,
-      "preview_color_url": "https://.../swatch1.png"
-    }
-  ],
-
-  "arParams": {
-    "mask_area": "face",
-    "blend_mode": "overlay",
-    "metal_shader": "FoundationShader",
-    "light_response": true,
-    "specular_level": 0.2,
-    "glitter": null
-  },
-
-  "tags": ["long-lasting", "waterproof"],
-  "release_date": "2023-09-01",
-  "brand_line": "Infallible"
-},
+[
   {
-  "id": "eye-001",
-  "brand": "Maybelline",
-  "name": "Nudes Eyeshadow Palette",
-  "category": "eyeshadow",
-  "thumbnail_url": "https://.../eyethumb.jpg",
-  "image_url": "https://.../eyemain.jpg",
-  "shades": [
-    {
-      "id": "golden-glow",
-      "shade_name": "Golden Glow",
-      "hex": "#FFD700",
-      "texture_type": "shimmer",
-      "finish": "radiant",
-      "alpha": 0.7,
-      "intensity": 0.6,
-      "preview_color_url": "https://.../gold.png"
-    }
-  ],
-  "arParams": {
-    "mask_area": "eyelid",
-    "blend_mode": "soft-light",
-    "metal_shader": "EyeshadowShader",
-    "light_response": true,
-    "glitter": 0.5
+    "id": "benzersiz-id",
+    "brand": "L'Oréal Paris",
+    "name": "Infallible 24H Fresh Wear Foundation",
+    "category": "foundation",
+    "description": "Uzun süre kalıcı, hafif fondöten",
+    "thumbnail_url": "https://example.com/thumb.jpg",
+    "image_url": "https://example.com/main.jpg",
+    "shades": [
+      {
+        "id": "shade-001",
+        "shade_name": "Natural Beige",
+        "hex": "#E6C9A8",
+        "texture_type": "liquid",
+        "finish": "natural",
+        "alpha": 0.6,
+        "intensity": 0.8,
+        "preview_color_url": "https://example.com/swatch1.png"
+      }
+    ],
+    "arParams": {
+      "mask_area": "face",
+      "blend_mode": "overlay",
+      "metal_shader": "FoundationShader",
+      "light_response": true,
+      "specular_level": 0.2,
+      "glitter": null
+    },
+    "tags": ["long-lasting", "waterproof"],
+    "release_date": "2023-09-01",
+    "brand_line": "Infallible"
+  },
+  {
+    "id": "eye-001",
+    "brand": "Maybelline",
+    "name": "Nudes Eyeshadow Palette",
+    "category": "eyeshadow",
+    "description": "Doğal tonlarda göz farı paleti",
+    "thumbnail_url": "https://example.com/eyethumb.jpg",
+    "image_url": "https://example.com/eyemain.jpg",
+    "shades": [
+      {
+        "id": "golden-glow",
+        "shade_name": "Golden Glow",
+        "hex": "#FFD700",
+        "texture_type": "shimmer",
+        "finish": "radiant",
+        "alpha": 0.7,
+        "intensity": 0.6,
+        "preview_color_url": "https://example.com/gold.png"
+      }
+    ],
+    "arParams": {
+      "mask_area": "eyelid",
+      "blend_mode": "soft-light",
+      "metal_shader": "EyeshadowShader",
+      "light_response": true,
+      "specular_level": null,
+      "glitter": 0.5
+    },
+    "tags": ["shimmer", "natural"],
+    "release_date": "2023-10-15",
+    "brand_line": "The Nudes"
   }
-}
 ]
