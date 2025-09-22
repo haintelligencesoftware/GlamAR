@@ -1,12 +1,12 @@
 [
   {
-    "id": "benzersiz-id",
+    "id": "foundation-001",
     "brand": "L'Oréal Paris",
     "name": "Infallible 24H Fresh Wear Foundation",
     "category": "foundation",
     "description": "Uzun süre kalıcı, hafif fondöten",
-    "thumbnail_url": "https://example.com/thumb.jpg",
-    "image_url": "https://example.com/main.jpg",
+    "thumbnail_url": "https://example.com/foundation-thumb.jpg",
+    "image_url": "https://example.com/foundation-main.jpg",
     "shades": [
       {
         "id": "shade-001",
@@ -14,9 +14,19 @@
         "hex": "#E6C9A8",
         "texture_type": "liquid",
         "finish": "natural",
-        "alpha": 0.6,
+        "alpha": 0.3,
         "intensity": 0.8,
-        "preview_color_url": "https://example.com/swatch1.png"
+        "preview_color_url": "https://example.com/beige-swatch.png"
+      },
+      {
+        "id": "shade-002",
+        "shade_name": "Warm Sand",
+        "hex": "#D4B896",
+        "texture_type": "liquid", 
+        "finish": "natural",
+        "alpha": 0.3,
+        "intensity": 0.7,
+        "preview_color_url": "https://example.com/sand-swatch.png"
       }
     ],
     "arParams": {
@@ -32,35 +42,77 @@
     "brand_line": "Infallible"
   },
   {
-    "id": "eye-001",
-    "brand": "Maybelline",
-    "name": "Nudes Eyeshadow Palette",
+    "id": "eyeshadow-001",
+    "brand": "Urban Decay",
+    "name": "Naked Eyeshadow Palette",
     "category": "eyeshadow",
-    "description": "Doğal tonlarda göz farı paleti",
-    "thumbnail_url": "https://example.com/eyethumb.jpg",
-    "image_url": "https://example.com/eyemain.jpg",
+    "description": "12'li göz farı paleti",
+    "thumbnail_url": "https://example.com/eyeshadow-thumb.jpg",
+    "image_url": "https://example.com/eyeshadow-main.jpg",
     "shades": [
       {
-        "id": "golden-glow",
+        "id": "shade-003",
         "shade_name": "Golden Glow",
         "hex": "#FFD700",
         "texture_type": "shimmer",
-        "finish": "radiant",
-        "alpha": 0.7,
-        "intensity": 0.6,
-        "preview_color_url": "https://example.com/gold.png"
+        "finish": "metallic",
+        "alpha": 0.5,
+        "intensity": 0.9,
+        "preview_color_url": "https://example.com/gold-swatch.png"
+      },
+      {
+        "id": "shade-004",
+        "shade_name": "Bronze Shimmer", 
+        "hex": "#CD7F32",
+        "texture_type": "shimmer",
+        "finish": "metallic",
+        "alpha": 0.6,
+        "intensity": 0.8,
+        "preview_color_url": "https://example.com/bronze-swatch.png"
       }
     ],
     "arParams": {
-      "mask_area": "eyelid",
-      "blend_mode": "soft-light",
+      "mask_area": "eyelids",
+      "blend_mode": "overlay",
       "metal_shader": "EyeshadowShader",
       "light_response": true,
-      "specular_level": null,
-      "glitter": 0.5
+      "specular_level": 0.8,
+      "glitter": 0.3
     },
-    "tags": ["shimmer", "natural"],
-    "release_date": "2023-10-15",
-    "brand_line": "The Nudes"
+    "tags": ["shimmer", "metallic"],
+    "release_date": "2023-10-15", 
+    "brand_line": "Naked"
+  },
+  {
+    "id": "lipstick-001",
+    "brand": "MAC",
+    "name": "Ruby Woo Lipstick",
+    "category": "lipstick",
+    "description": "Klasik mat kırmızı ruj",
+    "thumbnail_url": "https://example.com/lipstick-thumb.jpg",
+    "image_url": "https://example.com/lipstick-main.jpg",
+    "shades": [
+      {
+        "id": "shade-005",
+        "shade_name": "Ruby Red",
+        "hex": "#D2001C",
+        "texture_type": "matte",
+        "finish": "matte",
+        "alpha": 0.8,
+        "intensity": 1.0,
+        "preview_color_url": "https://example.com/ruby-swatch.png"
+      }
+    ],
+    "arParams": {
+      "mask_area": "lips",
+      "blend_mode": "multiply",
+      "metal_shader": "LipstickShader",
+      "light_response": false,
+      "specular_level": 0.0,
+      "glitter": null
+    },
+    "tags": ["matte", "classic"],
+    "release_date": "2023-08-01",
+    "brand_line": "Amplified"
   }
 ]
