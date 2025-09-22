@@ -32,5 +32,33 @@
   "tags": ["long-lasting", "waterproof"],
   "release_date": "2023-09-01",
   "brand_line": "Infallible"
+},
+  {
+  "id": "eye-001",
+  "brand": "Maybelline",
+  "name": "Nudes Eyeshadow Palette",
+  "category": "eyeshadow",
+  "thumbnail_url": "https://.../eyethumb.jpg",
+  "image_url": "https://.../eyemain.jpg",
+  "shades": [
+    {
+      "id": "golden-glow",
+      "shade_name": "Golden Glow",
+      "hex": "#FFD700",
+      "texture_type": "shimmer",
+      "finish": "radiant",
+      "alpha": 0.7,
+      "intensity": 0.6,
+      "preview_color_url": "https://.../gold.png"
+    }
+  ],
+  "arParams": {
+    "mask_area": "eyelid",
+    "blend_mode": "soft-light",
+    "metal_shader": "EyeshadowShader",
+    "light_response": true,
+    "glitter": 0.5
+  }
 }
+
 ]
