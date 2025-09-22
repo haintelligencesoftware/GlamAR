@@ -1,0 +1,35 @@
+{
+  "id": "benzersiz-id",
+  "brand": "L'Oréal Paris",
+  "name": "Infallible 24H Fresh Wear Foundation",
+  "category": "foundation",
+  "description": "Uzun süre kalıcı, hafif fondöten",
+  "thumbnail_url": "https://.../thumb.jpg",
+  "image_url": "https://.../main.jpg",
+
+  "shades": [
+    {
+      "id": "shade-001",
+      "shade_name": "Natural Beige",
+      "hex": "#E6C9A8",
+      "texture_type": "liquid",
+      "finish": "natural",
+      "alpha": 0.6,
+      "intensity": 0.8,
+      "preview_color_url": "https://.../swatch1.png"
+    }
+  ],
+
+  "arParams": {
+    "mask_area": "face",
+    "blend_mode": "overlay",
+    "metal_shader": "FoundationShader",
+    "light_response": true,
+    "specular_level": 0.2,
+    "glitter": null
+  },
+
+  "tags": ["long-lasting", "waterproof"],
+  "release_date": "2023-09-01",
+  "brand_line": "Infallible"
+}
